@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire</title>
+</head>
+<body>
+    <p>Merci de remplir le formulaire suivant</p>
+    <form id="form1" action="jsLTAROBOTICS.html" method="get">
+        <fieldset>
+            <legend>Données</legend>
+            <label for="nom">NOM</label>
+            <input type="text" name="nom" id="nom" size="20" placeholder="NOM" required>
+            <label for="prenom">PRENOMS</label>
+            <input type="text" name="prenom" id="prenom" size="20" placeholder="PRENOMS" required>
+            <br>
+            Genre:<br>
+            <input type="radio" id="genH" name="genre" value="Monsieur" required>
+            <label for="genH">Homme</label>
+            <input type="radio" id="genF" name="genre" value="Madame">
+            <label for="genF">Femme</label>
+            <br>
+            <label for="dn">Date de naissance:</label>
+            <input type="date" id="dn" name="nais">
+            <br>
+            NIVEAU:<br>
+            <input type="radio" id="seconde" name="niveau" value="SECONDE" required>
+            <label for="seconde">SECONDE</label>
+            <br>
+            <input type="radio" id="premiere" name="niveau" value="PREMIERE">
+            <label for="premiere">PREMIERE</label>
+            <br>
+            <input type="radio" id="terminale" name="niveau" value="TERMINALE">
+            <label for="terminale">TERMINALE</label>
+            <br>
+            <input type="radio" id="1bts" name="niveau" value="1ere ANNEE BTS">
+            <label for="1bts">1 BTS</label>
+            <br>
+            <input type="radio" id="2bts" name="niveau" value="2eme ANNEE BTS">
+            <label for="2bts">2 BTS</label>
+            <br>
+            <input type="reset" value="Réinitialiser">
+            <input type="submit" value="Envoyer">
+        </fieldset>
+    </form>
+</body>
+</html>

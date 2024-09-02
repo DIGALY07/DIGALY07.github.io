@@ -1,0 +1,81 @@
+body {
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+div {
+    border: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    display: flex;
+    align-items: center; /* Centre verticalement */
+    justify-content: center; /* Centre horizontalement */
+}
+img {
+    max-width: 100%; 
+    max-height: 100%;
+    object-fit: cover; 
+}
+.boxA {
+    width: 100%;
+}
+.boxA > div {
+    height: 7em;
+    width: 100%;
+    text-align: center;
+}
+#boxA1 {
+    flex: 1;
+}
+#boxA2 {
+    flex: 9;
+}
+.boxC {
+    width: 100%;
+    height: auto;
+}
+.boxC > div {
+    text-align: center;
+    font-size: 2em;
+    color: #003366;
+    height: auto;
+}
+#boxC1 {
+    flex: 3;
+}
+#boxC2 {
+    flex: 6;
+}
+#synthese{
+    border: none;
+    text-align: center;
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#result {
+    text-align: center;
+}
+.menu{
+    display: flex;
+    justify-content: space-around; /* Espace les éléments du menu */
+    align-items: center; /* Centre les éléments verticalement */
+    padding: 10px 0;
+    background-color: #09a6e1;      
+}
+.menu a {
+    border-radius: 5px;
+    background-color: #09a6e1;
+    font-size: 1em;
+    font-family: Arial;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    height: 22px;
+}
+ .menu a:hover {
+            background-color:  #003366;
+        }
